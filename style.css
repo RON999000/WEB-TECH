@@ -1,0 +1,53 @@
+/* Reset basic chaos */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  min-height: 100vh;
+  color: #fff;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  margin-top: 40px;
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Experiment list container */
+.experiment-list {
+  list-style: none;
+  padding: 0;
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+/* Gradient boxes */
+.experiment-list li {
+  margin: 20px 0;
+}
+
+/* Links as boxes */
+.experiment-list a {
+  display: block;
+  padding: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  background: linear-gradient(120deg, #ff512f, #dd2476);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.experiment-list a:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.4);
+}
