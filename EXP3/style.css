@@ -1,29 +1,29 @@
 body {
     margin: 0;
     font-family: "Segoe UI", Arial, sans-serif;
-    background:linear-gradient(120 deg,#9f5ad4,#323576);
-    color: #333;
-    padding: auto;
+    background: linear-gradient(120deg, #9f5ad4, #323576);
+    color: #222;
 }
 
 header {
     background: linear-gradient(120deg, #4e54c8, #8f94fb);
     color: white;
-    padding: 30px;
+    padding: 40px;
     text-align: center;
 }
 
 nav {
-    background-color: #222;
-    padding: 12px;
+    background-color: #1e1e1e;
+    padding: 14px;
     text-align: center;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 18px;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 nav a:hover {
@@ -31,19 +31,59 @@ nav a:hover {
 }
 
 section {
-    padding: 100px;
-    max-width: 900px;
-    margin: auto;
-    background: linear-gradient(120 deg,#a562bc,#7577a1);
+    padding: 60px;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 h2 {
-    color: #8d1c3e;
+    color: #4e54c8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 14px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #4e54c8;
+    color: white;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #4e54c8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #323576;
 }
 
 footer {
-    background-color: #222;
+    background-color: #1e1e1e;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 14px;
 }
