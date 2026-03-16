@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Management Table</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Student Management Table</h2>
+
+<div class="controls">
+<input type="text" id="searchInput" placeholder="Search student">
+
+<select id="courseFilter">
+<option value="All">All Courses</option>
+<option value="IT">IT</option>
+<option value="CS">CS</option>
+<option value="AI">AI</option>
+<option value="DS">DS</option>
+</select>
+
+<button onclick="sortByMarks()">Sort by Marks</button>
+</div>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Age</th>
+<th>Marks</th>
+<th>Course</th>
+</tr>
+</thead>
+
+<tbody id="studentTable"></tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
